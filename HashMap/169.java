@@ -1,5 +1,3 @@
-package java.util.HashMap;
-
 import java.util.HashMap;
 
 class Solution {
