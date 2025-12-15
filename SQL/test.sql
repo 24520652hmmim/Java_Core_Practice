@@ -4,6 +4,8 @@ FROM GIAOVIEN GV
 JOIN LOP L ON GV.MAGV = L.MAGVCN
 JOIN GIANGDAY GD ON GD.MAGV = GV.MAGV
                 AND GD.MALOP = L.MALOP;
+---------25
+
 
 
 -----27
@@ -36,3 +38,8 @@ HAVING COUNT(*) >= ALL (
 )
 ORDER BY GD.NAM, GD.HOCKY;
 
+--------34 
+
+
+
+---------35 
